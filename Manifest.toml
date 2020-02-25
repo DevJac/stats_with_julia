@@ -16,10 +16,10 @@ version = "3.5.0+2"
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[BenchmarkTools]]
-deps = ["JSON", "Printf", "Statistics"]
-git-tree-sha1 = "90b73db83791c5f83155016dd1cc1f684d4e1361"
+deps = ["JSON", "Logging", "Printf", "Statistics", "UUIDs"]
+git-tree-sha1 = "9e62e66db34540a0c919d72172cc2f642ac71260"
 uuid = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
-version = "0.4.3"
+version = "0.5.0"
 
 [[BinaryProvider]]
 deps = ["Libdl", "SHA"]
@@ -99,9 +99,9 @@ version = "0.46.0"
 
 [[GeometryTypes]]
 deps = ["ColorTypes", "FixedPointNumbers", "LinearAlgebra", "StaticArrays"]
-git-tree-sha1 = "a96baa00f5ac755689c82c29bc3395e161337c69"
+git-tree-sha1 = "62344139ee47be1fe862a946d41ead9314b1fb21"
 uuid = "4d00f742-c7ba-57c2-abde-4428a4b178cb"
-version = "0.7.7"
+version = "0.7.8"
 
 [[InteractiveUtils]]
 deps = ["Markdown"]
